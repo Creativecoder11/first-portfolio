@@ -4,25 +4,23 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 .header-section{
-    height: 100vh;
     width: 100%;
     display: flex;
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-    background-position: left;
-    
-
+    background-position: left top;
+    margin-bottom: 100px;
 }
-.header-container{
+.container{
     width: 50%;
 }
-.header-container h1{
+.container h1{
     font-size: 50px;
 }
-.header-container h2{
+.container h2{
     font-size: 40px;
 }
-.header-container img{
+.container img{
     width: 80%;
     margin-top: 20px;
 }
@@ -33,12 +31,21 @@ body{
     margin-left: 50px;
     margin-top: 80px;
 }
-button{
+.right{
+   margin-top: 180px;
+}
+.button{
     font-size: 15px;
     font-weight: 600;
     border: none;
     color: white;
+    cursor: pointer;
     padding: 10px 30px;
     border-radius: 5px;
+    text-decoration: none;
     background-image: linear-gradient(rgba(255, 0, 0, 0.74), rgba(255, 166, 0, 0.774));
 }
+.middle-section{
+    display: flex;
+}
+
