@@ -8,8 +8,7 @@ body{
     display: flex;
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-    background-position: left top;
-    margin-bottom: 100px;
+    background-position: left top; 
 }
 .container{
     width: 50%;
@@ -60,6 +59,10 @@ body{
 }
 .experience-content{
     display: flex; 
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
+    background-size: 80px;
 }
 .full-stack, .digi-marketer{
     margin: 40px;
